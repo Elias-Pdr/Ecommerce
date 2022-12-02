@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(76 19 129);
+    box-shadow: 0px 50px 50px 50px rgb(79 21 133);
+    position: absolute;
+
+    width: 100%;
+    color: white;
+}
+header h1{
+    font-size: 1em;
+}
+header svg{
+    width: 30px;
+    height: 30px;
+}
+header svg path{
+    fill: white;
+}
+.containerImg{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    padding: 100px 20px;
+}
+#imgProduto{
+    width: 100%;
+    z-index: 100;
+
+}
+#nomeProduto{
+    font-weight: 600;
+    margin: 20px 0px;
+}
+.containerPrecoFrete{
+    display: flex;
+    align-items: center;
+}
+
+#precoProduto{
+    font-size: 2em;
+    font-weight: 600;
+    color: green;
+    margin-right: 20px;
+}
+.freteGratis{
+    padding: 2px 6px;
+    width: fit-content;
+
+    border: 1px solid blue;
+    color: blue;
+    margin-right: 10px;
+    font-size: 1em;
+}
+main hr{
+    margin: 20px 0px;
+}
+
+
+.propriedadesProduto{
+    margin: 20px 0px;
+}
+.tamanhoBr{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+.tamanhoBr p{
+    font-size: small;
+    margin-left: 10px;
+}
+.containerSize{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btnSize{
+    padding: 20px;
+    margin: 6px;
+    font: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    background-color: aliceblue;
+
+}
+.btnSize:hover{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.05);
+
+}
+footer{
+    padding: 20px;
+    padding-top: 10px;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+}
+footer input{
+    width: 100%;
+    padding: 14px;
+    font-size: 1em;
+    border-radius: 10px;
+    border: none;    
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.boll1{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: blueviolet;
+    z-index: -100;
+    box-shadow: 0px 50px 50px 50px blueviolet;
+}
+

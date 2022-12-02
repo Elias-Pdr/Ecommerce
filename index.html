@@ -17,7 +17,7 @@
                 <div id="containerInput" class="containerInput">
                     <input type="search" name="searchMain" id="searchMain" placeholder="Search">
                     <!--icon pesquisa-->
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path id="XMLID_41_" d="m27.707 26.293-5.969-5.969c1.412-1.724 2.262-3.926 2.262-6.324 0-5.514-4.486-10-10-10s-10 4.486-10 10 4.486 10 10 10c2.398 0 4.6-.85 6.324-2.262l5.969 5.969c.391.391 1.023.391 1.414 0s.391-1.023 0-1.414zm-21.707-12.293c0-4.411 3.589-8 8-8s8 3.589 8 8-3.589 8-8 8-8-3.589-8-8z" data-original="#000000" class=""></path></g></svg>
+                    <svg id="lupaEscondida" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path id="XMLID_41_" d="m27.707 26.293-5.969-5.969c1.412-1.724 2.262-3.926 2.262-6.324 0-5.514-4.486-10-10-10s-10 4.486-10 10 4.486 10 10 10c2.398 0 4.6-.85 6.324-2.262l5.969 5.969c.391.391 1.023.391 1.414 0s.391-1.023 0-1.414zm-21.707-12.293c0-4.411 3.589-8 8-8s8 3.589 8 8-3.589 8-8 8-8-3.589-8-8z" data-original="#000000" class=""></path></g></svg>
                 </div>
                 <span class="containerIconsHeader">
                     <!--icon pesquisa-->
@@ -104,6 +104,7 @@
         <!--Container onde ira ter botoes para escolher entre todos os nichos-->
         <div class="containerNicho">
             <h2>Categorias</h2>
+            
             <div class="containerNichoSuperior">
                 <div class="btnNicho">
                     <!--icone que representa o nicho-->
@@ -268,12 +269,6 @@
                     </g></svg>
 
                 </div>
-            </div>
-
-
-
-
-            <div class="containerNichoInferior">
                 <div class="btnNicho">
                     <!--icone que representa o nicho-->
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 324.952 324.952" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
@@ -440,22 +435,182 @@
             </div>
 
         </div>
+
+
+
+
+        <div class="containerItens">
+            <p>descobertas</p>
+
+            <div class="boxItem" onclick="clickItem('1')">
+                <img id="imgProduto1" src="https://images.tcdn.com.br/img/img_prod/932431/aliancas_paris_namoro_4_mm_prata_anel_de_brinde_75_2_1df9ca71dee8a0d4fc3e4461ee0ead9e.jpg" alt="">
+                <p id="nomeProduto1">Alianças Namoro Áustria 3,5 mm Prata - Anel de Brinde | Le Diamant Joias</p>
+                <div class="tagsItens">
+                    <div class="vendedorLocal">
+                        <p>Vendedor local</p>
+                    </div>
+                    <div class="cupom">
+                        <p>20% off</p>
+                    </div>
+                </div>
+                <div class="precosEvendas">
+                    <p class="precos">R$ <span id="precoProduto1">65,90</span>
+                    </p>
+                    <p id="numeroVendasProduto1" class="numeroVendas">15,8mil Vendidos</p>
+                </div>
+            </div>
+
+
+            <div class="boxItem" onclick="clickItem('keyItem')">
+                <img id="imgProduto1" src="https://images.tcdn.com.br/img/img_prod/932431/aliancas_paris_namoro_4_mm_prata_anel_de_brinde_75_2_1df9ca71dee8a0d4fc3e4461ee0ead9e.jpg" alt="">
+                <p id="nomeProduto1">Alianças Namoro Áustria 3,5 mm Prata - Anel de Brinde | Le Diamant Joias</p>
+                <div class="tagsItens">
+                    <div class="vendedorLocal">
+                        <p>Vendedor local</p>
+                    </div>
+                    <div class="cupom">
+                        <p>20% off</p>
+                    </div>
+                </div>
+                <div class="precosEvendas">
+                    <p id="precoProduto1" class="precos">
+                        R$ <span>65,90</span>
+                    </p>
+                    <p class="numeroVendas">
+                        15,8mil Vendidos
+                    </p>
+                </div>
+            </div>
+
+            <div class="boxItem" onclick="clickItem('keyItem')">
+                <img id="imgProduto1" src="https://images.tcdn.com.br/img/img_prod/932431/aliancas_paris_namoro_4_mm_prata_anel_de_brinde_75_2_1df9ca71dee8a0d4fc3e4461ee0ead9e.jpg" alt="">
+                <p id="nomeProduto1">Alianças Namoro Áustria 3,5 mm Prata - Anel de Brinde | Le Diamant Joias</p>
+                <div class="tagsItens">
+                    <div class="vendedorLocal">
+                        <p>Vendedor local</p>
+                    </div>
+                    <div class="cupom">
+                        <p>20% off</p>
+                    </div>
+                </div>
+                <div class="precosEvendas">
+                    <p id="precoProduto1" class="precos">
+                        R$ <span>65,90</span>
+                    </p>
+                    <p class="numeroVendas">
+                        15,8mil Vendidos
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="boxItem" onclick="clickItem('keyItem')">
+                <img id="imgProduto1" src="https://images.tcdn.com.br/img/img_prod/932431/aliancas_paris_namoro_4_mm_prata_anel_de_brinde_75_2_1df9ca71dee8a0d4fc3e4461ee0ead9e.jpg" alt="">
+                <p id="nomeProduto1">Alianças Namoro Áustria 3,5 mm Prata - Anel de Brinde | Le Diamant Joias</p>
+                <div class="tagsItens">
+                    <div class="vendedorLocal">
+                        <p>Vendedor local</p>
+                    </div>
+                    <div class="cupom">
+                        <p>20% off</p>
+                    </div>
+                </div>
+                <div class="precosEvendas">
+                    <p id="precoProduto1" class="precos">
+                        R$ <span>65,90</span>
+                    </p>
+                    <p class="numeroVendas">
+                        15,8mil Vendidos
+                    </p>
+                </div>
+            </div>
+
+            <div class="boxItem" onclick="clickItem('keyItem')">
+                <img id="imgProduto1" src="https://images.tcdn.com.br/img/img_prod/932431/aliancas_paris_namoro_4_mm_prata_anel_de_brinde_75_2_1df9ca71dee8a0d4fc3e4461ee0ead9e.jpg" alt="">
+                <p id="nomeProduto1">Alianças Namoro Áustria 3,5 mm Prata - Anel de Brinde | Le Diamant Joias</p>
+                <div class="tagsItens">
+                    <div class="vendedorLocal">
+                        <p>Vendedor local</p>
+                    </div>
+                    <div class="cupom">
+                        <p>20% off</p>
+                    </div>
+                </div>
+                <div class="precosEvendas">
+                    <p id="precoProduto1" class="precos">
+                        R$ <span>65,90</span>
+                    </p>
+                    <p class="numeroVendas">
+                        15,8mil Vendidos
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="boxItem" onclick="clickItem('keyItem')">
+                <img id="imgProduto1" src="https://images.tcdn.com.br/img/img_prod/932431/aliancas_paris_namoro_4_mm_prata_anel_de_brinde_75_2_1df9ca71dee8a0d4fc3e4461ee0ead9e.jpg" alt="">
+                <p id="nomeProduto1">Alianças Namoro Áustria 3,5 mm Prata - Anel de Brinde | Le Diamant Joias</p>
+                <div class="tagsItens">
+                    <div class="vendedorLocal">
+                        <p>Vendedor local</p>
+                    </div>
+                    <div class="cupom">
+                        <p>20% off</p>
+                    </div>
+                </div>
+                <div class="precosEvendas">
+                    <p id="precoProduto1" class="precos">
+                        R$ <span>65,90</span>
+                    </p>
+                    <p class="numeroVendas">
+                        15,8mil Vendidos
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
     </main>
 
-    <footer>
-        <p>footer</p>
-    </footer>
 
 
     <script>
 
         function clickLupaMobile() {
-            console.log("log");
             document.getElementById("containerInput").style.width = "100%"
 
             document.getElementById("containerInput").style.display = "flex"
             document.getElementById("iconPesquisaMobile").style.display = "none"
             document.getElementById("nameMarca").style.display = "none"
+        }
+
+
+        function clickItem(keyItem) {
+
+            let imgItem = document.getElementById("imgProduto" + keyItem)
+            let nomeItem = document.getElementById("nomeProduto" + keyItem)
+            let precoItem = document.getElementById("precoProduto" + keyItem)
+
+            nomeItem.style.color = 'purple'
+            precoItem.style.color = 'purple'
+
+            localStorage.setItem("imgItemSelect", imgItem.src)
+            localStorage.setItem("nomeItemSelect", nomeItem.innerHTML)
+            localStorage.setItem("precoItemSelect", precoItem.innerHTML)
+
+
+            console.log("img: ");
+            console.log(localStorage.getItem('imgItemSelect'));
+            console.log("nome: ");
+            console.log(localStorage.getItem('nomeItemSelect'));
+            console.log("preço: ");
+            console.log("R$ " + localStorage.getItem('precoItemSelect'));
+
+            window.location.href = 'produtoSelecionado.html'
         }
 
     </script>
